@@ -14,11 +14,8 @@ jobs:
 
     runs-on: ubuntu-latest
     defaults:
-
       run:
-
-        working-directory: 'frontend'
-
+        working-directory: '/home/runner'
 
     strategy:
       matrix:
