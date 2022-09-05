@@ -29,4 +29,5 @@ jobs:
         cache-dependency-path: '**/package.json'
     - run: npm install
     - run: npm run start
-
+      env:
+        Token: ${{ secrets.Token }}
